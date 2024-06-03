@@ -1,0 +1,45 @@
+
+  /* Full-height container to cover the entire viewport */
+.full-height-containerv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('D:\react2\client\my-app\src\pages1\Images\Backdrop1.avif') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Container styling */
+.containerv-fluid.v1 {
+  text-align: center;
+  background: rgba(245, 241, 241, 0.8); /* Semi-transparent background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+}
+
+/* Header styling */
+h1 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Paragraph styling */
+p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+/* Icon styling */
+.containerv-fluid.v1::before {
+  content: '\f058'; /* FontAwesome check-circle icon unicode */
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-size: 3em;
+  color: #4caf50; /* Green color for success */
+  display: block;
+  margin-bottom: 10px;
+}

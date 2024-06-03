@@ -1,0 +1,49 @@
+/* About.css */
+
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+.ab1 {
+  background-color: #F5F5F5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.background-image {
+  width: 100%;
+  height: 400px; /* Adjust the height as needed */
+  background-image: url('D:/react2/client/my-app/src/pages1/Images/about.avif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.about {
+  max-width: 800px;
+  padding: 20px;
+  text-align: center;
+  background-color: transparent; /* Optional: to ensure text is readable */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Optional: add some shadow for separation */
+  margin: 0; /* Ensure no margin at the bottom */
+  flex: 1; /* Ensure it takes up remaining space */
+}
+
+.about h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.footer-container {
+  width: 100%;
+  margin: 0; /* Ensure no margin around the footer */
+  padding: 0; /* Ensure no padding around the footer */
+}

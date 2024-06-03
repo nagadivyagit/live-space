@@ -1,0 +1,102 @@
+/* LocationMap.css */
+.carousel-image {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+  }
+  
+  .headingst {
+    text-align: center;
+     /* Increased font size */
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .headingst span {
+    color: #f52234;
+    font-size: 30px;
+  }
+  
+  .containerst {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .contact-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown {
+    margin-bottom: 20px;
+  }
+  
+  .dropdown label {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #333;
+    font-size: 1.2em; /* Increased font size */
+  }
+  
+  .dropdown select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em; /* Increased font size */
+  }
+  
+  .map-address-containerst {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+  }
+  
+  .address-box {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .address-box h2 {
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 1.5em; /* Increased font size */
+  }
+  
+  .address-box p {
+    font-size: 1.2em; /* Increased font size */
+    color: #666;
+  }
+  
+  .map-containerst {
+    flex: 2;
+    width: 100%;
+    max-width: 800px;
+    height: 600px;
+  }
+  
+  .map-containerst iframe {
+    width: 100%;
+    height: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .map-address-containerst {
+      flex-direction: column;
+    }
+  
+    .map-containerst {
+      height: 400px; /* Adjusted height for smaller screens */
+    }
+  }
+  

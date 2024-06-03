@@ -1,0 +1,124 @@
+/* Logincss.css */
+
+/* Body styles */
+body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2; /* Light background color */
+        height: 100vh; /* Full height viewport */
+        margin: 0; /* Remove default margin */
+    }
+    
+    /* Login container styles */
+    .login-containerr {
+        display: flex; /* Flexbox layout */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        height: 100vh; /* Full height of the viewport */
+        background-image: url('D:\react2\client\my-app\src\pages1\Images\background.avif'); /* Background image */
+        background-size: cover; /* Cover the entire container */
+        background-position: center; /* Center the background image */
+    }
+    
+    /* Form container styles */
+    form {
+        background-color: transparent; /* Semi-transparent white background for the form */
+        max-width: 400px; /* Maximum width for the form */
+        padding: 20px; /* Padding inside the form */
+        border-radius: 8px; /* Rounded corners */
+        box-shadow: 0 0 10px rgba(31, 2, 2, 0.1); /* Light shadow for 3D effect */
+        width: 100%; /* Full width form */
+    }
+    
+    /* Heading styles */
+    h2 {
+        text-align: center; /* Center align the heading */
+        color: #0e0101; /* Dark text color */
+    }
+    
+    /* Input container styles */
+    .input-containerr {
+        padding: 10px 0; /* Padding inside the container */
+        display: block; /* Block display to stack elements vertically */
+    }
+    
+    /* Label styles */
+    label {
+        float: left;
+        display: block; /* Block display for labels */
+        margin-bottom: 8px; /* Space below the labels */
+        color: #120202; /* Dark text color */
+        font-size: 20px;
+    }
+    label1 {
+        float: right;
+        display: block; /* Block display for labels */
+        margin-bottom: 8px; /* Space below the labels */
+        color: #120202; /* Dark text color */
+        font-size: 15px;
+    }
+    /* Input field styles */
+    input[type="text"],
+    input[type="password"] {
+        width: calc(100% - 20px); /* Full width inputs */
+        padding: 10px; /* Padding inside the inputs */
+        margin-bottom: 10px; /* Margin below the inputs */
+        border: 1px solid #ccc; /* Light border */
+        box-sizing: border-box; /* Ensure padding and border are included in total width and height */
+        border-radius: 4px; /* Rounded corners */
+    }
+    
+    /* Button styles */
+    button {
+        background-color: #e80d0d; /* Green background for buttons */
+        color: white; /* White text color */
+        padding: 5px 0; /* Padding inside the buttons */
+        margin-top: 10px; /* Margin above the button */
+        border: none; /* Remove default border */
+        cursor: pointer; /* Pointer cursor on hover */
+        width: 60%; /* Full width buttons */
+        border-radius: 4px; /* Rounded corners */
+        text-align: center; /* Center align text */
+        margin-left: 40px;
+    }
+    
+    /* Cancel button styles */
+    .cancelbtn {
+        background-color: #f44336; /* Red background for cancel button */
+    }
+    
+    /* Hover effects for buttons */
+    button:hover {
+        opacity: 0.8; /* Slight transparency on hover */
+    }
+    
+    /* Checkbox styles */
+    input[type="checkbox"] {
+        margin-top: 16px; /* Space above the checkbox */
+    }
+    
+    /* Password link styles */
+    span.psw {
+        float:left;
+        color: #120202; /* Dark text color */
+        font-size: 20px;
+        display: flex;
+        justify-content: space-between; /* Align elements with space in between */
+    }
+    
+    span.psw1 {
+        color: #120202; /* Dark text color */
+        font-size: 18px;
+        margin-left: 10px;
+        margin-right: 60px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    
+    /* Container with background color */
+    .containerr {
+        padding: 10px 20px; /* Padding inside the container */
+        display: block; /* Block display to avoid flex */
+        margin-top: 10px; /* Space at the top of the container */
+    }
+    

@@ -1,0 +1,57 @@
+/* Contactcss.css */
+
+.containerc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0; /* Reduce top and bottom padding */
+}
+
+.contact-section {
+  text-align: center;
+  max-width: 600px;
+  padding: 20px;
+}
+
+.contact-image {
+  max-width: 100%;
+  height: auto;
+  margin-left: 100px;
+}
+
+.contact-title {
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+.contact-paragraph {
+  font-size: 1em;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+.contact-table {
+  width: 100%;
+  margin-top: 10px; /* Reduce top margin */
+  margin-bottom: 10px; /* Reduce bottom margin */
+  border-collapse: collapse;
+  border: 2px solid rgba(68, 65, 65, 0.5); /* Set the border to a light black shade */
+}
+
+.contact-table tr {
+  border-bottom: 2px dotted black; /* Add dotted border between rows */
+}
+
+.contact-table td {
+  padding: 10px;
+  border: none; /* Remove individual cell borders */
+}
+
+.contact-table td:last-child {
+  text-align: right;
+}
+
+/* Remove border between specific cells */
+.contact-table td:first-child + td {
+  border-left: none;
+}

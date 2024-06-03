@@ -1,0 +1,50 @@
+body {
+    font-family:'Times New Roman', Times, serif ;
+}
+.custom-card-container {
+position: relative;
+color: #060505; /* black text color */
+border-radius: 50x; /* Rounded corners */
+overflow: hidden;
+font-size: 25px;
+}
+
+.custom-card-container .custom-card-img {
+max-width: 100%; /* Ensure image fits within card */
+display:block;
+}
+
+.custom-card-overlay {
+position: absolute; /* Position the overlay relative to the container */
+    top: 50%; /* Align top of overlay to middle of container */
+    left: 50%; /* Align left of overlay to middle of container */
+    transform: translate(-50%, -50%); /* Center the overlay */
+    text-align: center; /* Center text within overlay */
+    padding: 20px; /* Add padding to the overlay */
+    background-color: transparent; /* Semi-transparent background */
+    border-radius: 10px; /* Rounded corners for overlay */
+}
+
+.custom-card-title {
+font-size: 1.5rem; /* Larger title font size */
+margin-bottom: 1rem; /* Add spacing below title */
+background-color: transparent; /* Remove background color */
+}
+
+
+.oval-btn {
+        border-radius: 50px; /* Adjust border-radius to control the oval shape */
+        background-color: red;
+       
+        padding: 5px 20px; /* Adjust padding as needed */
+        border: none;
+        outline: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .oval-btn:hover {
+        background-color: darkred; /* Change color on hover */
+    }
+    
+    

@@ -1,0 +1,136 @@
+body {
+    font-family:'Times New Roman', Times, serif ;
+}
+
+header {
+    background-color: rgba(247, 234, 234, 0.5);
+    padding: 5px 0;
+    text-align: left;
+    color: rgb(49, 19, 201);
+}
+
+nav {
+    padding: 10px 0;
+    
+}
+.container0 {
+  color: rgb(7, 6, 6);
+    display: flex;
+    
+    align-items:center;
+    font-size: 18px;
+}
+nav a {
+    color: rgb(21, 20, 20); 
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px;
+    transition: color 0.3s; 
+    
+}
+nav a:hover,
+nav a:focus {
+    color: rgb(7, 9, 7); 
+    text-decoration: none;
+    text-align: left;
+    
+}
+.container0 {
+    padding: 5px ;
+    text-align: left;
+}
+
+
+.active.custom-nav-link1 {
+    background-color: transparent ;
+    color: rgb(27, 17, 17);
+    
+}
+.nav-tabs1 .nav-item1 {
+    
+    display: inline-block;
+    margin-right: 0px;
+    
+}
+.nav-tabs1 .nav-item1 a {
+    
+    font-size: 18px;
+    
+}
+.custom-dropdown-toggle {
+font-size: 18px; 
+color: #0b0a0a;
+text-align: left;
+
+}
+.navbar-brand img {
+    max-height: 40px; /* Adjust the max-height as needed */
+    margin-right: 10px; /* Adjust margin as needed */
+    
+}
+h5 {
+    font-size: 50px;
+    
+}
+.carousel-item img {
+    object-fit: cover; /* Ensure images cover the entire carousel item */
+    height: 100%; /* Ensure images take up full height of the carousel item */
+}
+
+.oval-btn {
+    border-radius: 25px; /* Adjust border-radius to control the oval shape */
+    background-color: red;
+    color: white;
+    padding: 5px 0px; /* Adjust padding as needed */
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.oval-btn:hover {
+    background-color: darkred; /* Change color on hover */
+}
+.navbar-custom .navbar-nav .nav-item .sign-in-sign-up .fa {
+    margin-left: 15px; /* Adjust margin for better spacing */
+}
+.navbar-custom .navbar-nav .nav-item .nav-link {
+    padding-right: 10px; /* Adjust padding for better spacing */
+}
+.navbar-custom .navbar-nav .nav-item:last-child .nav-link {
+    padding-right: 0; /* Remove padding from the last nav-item */
+}
+.navbar-custom .navbar-nav .nav-item .nav-link .fa {
+    margin-right: 5px; /* Adjust margin for better spacing */
+}
+/* Additional CSS for custom sign-in/sign-up button */
+.navbar-custom .navbar-nav .nav-item .sign-in-sign-up {
+    padding-left: 0; /* Remove padding from left side */
+    padding-right: 15px; /* Add padding to the right for spacing */
+    display: flex;
+    align-items: center;
+}
+.navbar-custom .navbar-nav .nav-item .sign-in-sign-up .fa {
+    margin-right: 5px; /* Adjust margin for better spacing */
+}
+.oval-btn1 {
+    border-radius: 50px; /* Adjust border-radius to control the oval shape */
+    background-color: red;
+    color: white;
+    padding: 10px 5px; /* Adjust padding as needed */
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 0; /* Ensure no extra margin is applied */
+    font-size: 16px; /* Adjust the font size as needed */
+    text-align: left; /* Align text to the left */
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Vertically center the text */
+    justify-content: flex-start; /* Horizontally align text to the start (left) */
+    
+}
+
+.oval-btn1:hover {
+    background-color: darkred; /* Change color on hover */
+}

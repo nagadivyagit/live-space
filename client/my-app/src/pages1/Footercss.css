@@ -1,0 +1,63 @@
+.footer {
+    display: flex;
+    justify-content: space-between; /* Ensure items are spaced to the edges */
+    align-items: flex-start; /* Align items to the top */
+    background-color: #421438; /* Cement color background */
+    padding: 20px;
+    margin-top: 70px;
+    color: white; /* Text color for better visibility */
+}
+.footer-left {
+    display: flex; /* Changed from block to flex */
+    flex-direction: column;
+    align-items: center;
+}
+.footer-left img {
+    width: 200px; /* Increased image size */
+    margin-bottom: 20px;
+}
+.social-iconss {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Increased gap between icons */
+    flex-wrap: wrap; /* Wrap icons to next line if needed */
+}
+.footer-right {
+    max-width: 300px; /* Limit the width of the right content */
+}
+.fa1 {
+    padding: 10px; /* Increased padding */
+    font-size: 24px; /* Increased font size */
+    width: 40px; /* Increased width */
+    height: 40px; /* Increased height */
+    text-align: center;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook-f {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+    background: #E4405F;
+    color: white;
+}
+.fa-pinterest {
+    background: #BD081C;
+    color: white;
+}
+.fa-whatsapp {
+    background: #25D366;
+    color: white;
+}
+.fa-youtube {
+    background: #FF0000;
+    color: white;
+}

@@ -1,0 +1,57 @@
+body {
+    font-family:'Times New Roman', Times, serif ;
+}
+/* Container for the cards */
+.marquee-container {
+    overflow: hidden;
+    width: 100%;
+}
+
+/* List to hold the cards */
+.marquee-list {
+    
+    display: flex;
+    white-space: nowrap; /* Prevent cards from wrapping */
+    animation: marquee 20s linear infinite; /* Adjust timing as needed */
+}
+
+/* Individual card styling */
+.card22 {
+   
+    width: 200px; /* Adjust card width as needed */
+    height: 200px;
+    display: inline-block;
+    margin-right: 20px; /* Adjust space between cards */
+    border: 1px solid #ccc; /* Add border for visual separation */
+    text-align: center; /* Align content at center horizontally */
+    background-color: whitesmoke;
+    align-items: center; /* Center content horizontally */
+    margin: 10px;
+padding: 10px;
+}
+
+/* Image styling */
+.card-image {
+    margin-left: 30px;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    
+}
+
+/* Title styling */
+.card-title {
+    padding: 10px;
+    text-align: center;
+    font-size: 17px;
+}
+
+/* Keyframes for the marquee animation */
+@keyframes marquee {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
