@@ -22,6 +22,12 @@ import OtpForm from './pages1/Otpverification';
 import Emailverification from './pages1/Emailverification';
 import Storelocator from './pages1/Storelocator';
 import Backpage from './pages1/Backpage';
+import ForgetPassword from './pages1/ForgetPassword.jsx';
+
+import VerifyForget from './pages1/Verifyforget.jsx';
+import PasswordOtpForm from './pages1/Forgetotp.jsx';
+import ResetPassword from './pages1/ResetPassword.jsx';
+
 
 function App() {
   return (
@@ -47,7 +53,10 @@ function App() {
        <Route path='/OtpVerification' element={<OtpForm/>}/>
        <Route path='/Emailverification' element={<Emailverification/>}/>
        <Route path='/Storelocator' element={<Storelocator/>}/>
-       
+       <Route path='/ForgetPassword' element={<ForgetPassword/>}/>
+       <Route path='/ResetPassword' element={<ResetPassword/>}/>
+       <Route path='/Forgetotp' element={<PasswordOtpForm/>}/>
+       <Route path='/Verifyforget' element={<VerifyForget/>}/>
        <Route path='/Backpage' element={<Backpage/>}/>
       </Routes>
       </Router>

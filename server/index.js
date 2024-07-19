@@ -9,22 +9,26 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 
 
-const signin = require('./Routes/signin');
+
+
 
 const Sendverification = require('./Routes/Sendverification');
 
+const signin = require('./Routes/signin');
 const Login = require('./Routes/Login');
-
 const verify = require('./Routes/verify');
+const path = require('path')
 
 const sendotp = require('./Routes/sendotp');
 const verifyotp = require('./Routes/verifyotp');
-
-
-
 const Emailgenotp= require('./Routes/Emailgenotp');
 const Emailverifyotp= require('./Routes/Emailverifyotp');
-const path = require('path')
+const Forgetpassword= require('./Routes/Forgetpassword');
+const Forgetverification= require('./Routes/Forgetverification');
+
+const Resetpassword= require('./Routes/Resetpassword');
+
+
 
 
 app.use(express.static(path.join(__dirname, '/client/build')));
@@ -53,10 +57,11 @@ app.use('/sendotpp', Emailgenotp);
 
 
 app.use('/verifyotpp', Emailverifyotp);
-  
-    
+app.use('/ForgetPassword', Forgetpassword);
+app.use('/verifypassword', Forgetverification);
 
- 
+
+app.use('/reset-password', Resetpassword);
   
   app.listen(5000, () => {console.log('Loading')
 })

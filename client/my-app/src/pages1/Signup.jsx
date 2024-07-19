@@ -105,10 +105,7 @@ export default function Signup() {
       const saltedpassword = salt + sanitizedpassword; // Add the salt to the password
       const encryptedpassword = CryptoJS.SHA256(saltedpassword).toString();
       
-      console.log('salt:', salt.toString());
-      // Optional: to store the salt for future password verification
-      console.log('Hashed password:', encryptedpassword);
-      // Submit the form
+      
       axios.post('http://localhost:5000/signin', {
         FirstName: sanitizedName,
         email: sanitizedEmail,
